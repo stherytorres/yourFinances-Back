@@ -18,6 +18,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:<br>
 
 Framework: Express.js <br>
 Dependências: Knex, Dotenv, Cors e Nodemon <br>
+Pacotes: Express bearer token <br>
 
 ## Uso:<br>
 * Crie uma pasta no seu computador: 'minha-pasta' <br>
