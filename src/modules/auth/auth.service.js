@@ -5,12 +5,12 @@ import { save, getByEmail } from '../user/index.js';
 export const login = async (params) => {
     const user = await getByEmail(params.email);
     if (!user) {
-        return { error: 'Invalid e-mail or password' };        
+        return { error: 'Email ou senha inválidos' };        
     }
 
     const passwordCorrect = bcrypt.compareSync(params.password, user.password);
     if (!passwordCorrect) {
-        return { error: 'Invalid e-mail or password' };
+        return { error: 'Email ou senha inválidos' };
     }
 
     const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET);
@@ -20,7 +20,7 @@ export const login = async (params) => {
 export const register = async (params) => {
     const user = await getByEmail(params.email);
     if (user) {
-        return { error: 'This e-mail already exists ' };        
+        return { error: 'Este e-mail já está casdastrado' };        
     }
     const userCreated = await save(params);
 
