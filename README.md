@@ -24,7 +24,7 @@ Pacotes: Express bearer token <br>
 * Crie uma pasta no seu computador: 'minha-pasta' <br>
 * Abra 'minha-pasta' no VS Code <br>
 * Abra o terminal no VS Code <br>
-* Clone o repositório: $ git clone https://github.com/stheryalves/yourFinances-Back.git <br>
+* Clone o repositório: $ git clone https://github.com/stherytorres/yourFinances-Back.git <br>
 * Execute o comando 'npm install' ou 'npm i'. Isso instalará todas as dependências do projeto listadas no arquivo package.json.<br>
 * Após a conclusão das instalações, você pode iniciar o servidor de desenvolvimento localmente. Você pode fazer isso executando o comando 'npm run dev'.<br>
 * O servidor de desenvolvimento será iniciado. Se não abrir automaticamente, você pode acessá-lo digitando http://localhost:8080 na barra de endereços do seu navegador.<br>
@@ -39,9 +39,7 @@ Link da API: [Your Finances]() <br>
 Se você tiver alguma dúvida ou sugestão sobre o Projeto, sinta-se à vontade para entrar em contato:<br>
 
 <div> 
-  <!--<a href="https://instagram.com/depoissumiu" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href="https://discord.gg/wagxzStdcR" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> -->
-  <a href = "mailto:sthery.styll@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/sthery-alves-5214ab99/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="mailto:stor68@proton.me"><img src="https://img.shields.io/badge/-ProtonMail-%23333?style=for-the-badge&logo=protonmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/sthery-torres/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 </div>
